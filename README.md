@@ -7,15 +7,15 @@ Convert a string to an ASCII draw [node.js]
 ## Installation
 
 ``` bash
-	$ npm install stringtoascii
+	$ npm install @mad5d/stringtoascii
 ```
 
 ## Usage
 
 ``` javascript
-	const stringtoascii= require('stringtoascii');
+	const stringtoascii= require('@mad5d/stringtoascii');
 	
-	/Only "ABCDEFGHIJKLMNOPQRSTUVWXYZ-_0123456789" work for the moment
+	//Only "ABCDEFGHIJKLMNOPQRSTUVWXYZ-_0123456789" work for the moment
 	console.log(stringtoascii.bigmoneyne("MAD5D").toASCII());
 ```
 

@@ -1,6 +1,6 @@
 {
-  "name": "stringtoascii",
-  "version": "0.0.1",
+  "name": "@mad5d/stringtoascii",
+  "version": "0.0.3",
   "description": "Convert a string to an ASCII draw in",
   "main": "index.js",
   "scripts": {
