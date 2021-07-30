@@ -14,8 +14,9 @@ Convert a string to an ASCII draw [node.js]
 
 ``` javascript
 	const stringtoascii= require('stringtoascii');
-
-	console.log(stringtoascii.bigmoneyne("MADOC").toASCII());
+	
+	/Only "ABCDEFGHIJKLMNOPQRSTUVWXYZ-_0123456789" work for the moment
+	console.log(stringtoascii.bigmoneyne("MAD5D").toASCII());
 ```
 
 ### Result
